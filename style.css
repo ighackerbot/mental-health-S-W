@@ -1,1 +1,16 @@
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #34495E;
+    --accent-color: #E67E22;
+    --background-color: #F5F6FA;
+    --text-color: #2C3E50;
+    --light-text: #7F8C8D;
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
