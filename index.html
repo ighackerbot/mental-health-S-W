@@ -223,3 +223,61 @@
             <p>&copy; 2024 MindfulPath. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    link.classList.add('active');
+                });
+            });
+
+            const details = document.querySelectorAll('details');
+            details.forEach(detail => {
+                detail.addEventListener('toggle', () => {
+                    if (detail.open) {
+                        const content = detail.querySelector('.feature-content, .full-story, .resource-content');
+                        content.style.animation = 'slideDown 0.3s ease-out';
+                    }
+                });
+            });
+
+            const callButtons = document.querySelectorAll('.call-btn');
+            callButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const number = button.getAttribute('data-number');
+                    window.location.href = `tel:${number}`;
+                });
+            });
+            const bookButtons = document.querySelectorAll('.book-btn');
+            bookButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    alert('Booking system will be available soon!');
+                });
+            });
+
+            const joinButtons = document.querySelectorAll('.join-btn');
+            joinButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    alert('Community registration opening soon!');
+                });
+            });
+
+            const accessButtons = document.querySelectorAll('.access-btn');
+            accessButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    alert('Resource access will be available shortly!');
+                });
+            });
+
+            const shareButtons = document.querySelectorAll('.share-btn');
+            shareButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    alert('Share functionality coming soon!');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
