@@ -100,12 +100,15 @@ body {
     line-height: 1.2;
     margin-bottom: 1.5rem;
     color: var(--primary-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
-.hero-content p {
+.hero-content h3 {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: var(--light-text);
+    color: rgb(51, 211, 195);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
 }
 
 .btn {
@@ -137,7 +140,7 @@ body {
 
 .features {
     padding: 4rem 5%;
-    background-color: white;
+    background-color: rgb(224, 200, 183);
 }
 
 .features h2 {
@@ -151,12 +154,12 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .feature-card {
-    background-color: white;
+    background-color: rgb(148, 212, 219);
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
