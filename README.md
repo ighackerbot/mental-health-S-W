@@ -1,6 +1,6 @@
 REFRENCES:
 ->https://www.betterup.com
-->Chatgpt
+->https://chatgpt.com/
 ->https://www.Youtube.com
 ->https://nimhans.ac.in/
 ->http://www.aasra.info/
