@@ -26,13 +26,12 @@ body {
     background-color: var(--background-color);
 }
 
-/* Navigation */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background-color: white;
+    background-color: #D4EBF8;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
@@ -62,7 +61,6 @@ body {
     color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
@@ -70,12 +68,19 @@ body {
     padding: 4rem 5%;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     min-height: 80vh;
+    background-image:url("https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800"  ) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .hero-content {
     flex: 1;
-    max-width: 600px;
+    max-width: vw;
     padding-right: 2rem;
+    
 }
 
 .hero-image {
@@ -94,7 +99,7 @@ body {
     font-size: 3.5rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .hero-content p {
@@ -102,6 +107,7 @@ body {
     margin-bottom: 2rem;
     color: var(--light-text);
 }
+
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
@@ -143,7 +149,7 @@ body {
 
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -285,6 +291,7 @@ body {
     padding: 2rem;
     cursor: pointer;
 }
+
 .-storyfull {
     padding: 0 2rem 2rem;
     border-top: 1px solid #eee;
@@ -363,11 +370,12 @@ footer {
 .footer-section a:hover {
     opacity: 1;
 }
+
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
-.page .page-header {
-    text-align:center;
-}
+    .page .page-header {
+        text-align:center;
+    }
