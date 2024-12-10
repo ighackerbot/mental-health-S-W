@@ -36,7 +36,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+
 }
+
 
 .logo {
     font-size: 1.5rem;
@@ -80,6 +82,7 @@ body {
     flex: 1;
     max-width: vw;
     padding-right: 2rem;
+    text-align: center;
     
 }
 
@@ -100,7 +103,7 @@ body {
     line-height: 1.2;
     margin-bottom: 1.5rem;
     color: var(--primary-color);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    text-shadow: 2px 2px 4px rgba(254, 214, 214, 0.9);
 }
 
 .hero-content h3 {
@@ -228,7 +231,7 @@ body {
 
 .resources {
     padding: 4rem 5%;
-    background-color: var(--background-color);
+    background-color: rgb(94, 113, 113);
 }
 
 .resources h2 {
@@ -271,7 +274,7 @@ body {
 
 .stories-container {
     padding: 4rem 5%;
-    max-width: 1200px;
+    width: 80vw;
     margin: 0 auto;
 }
 
@@ -379,6 +382,36 @@ footer {
     padding-top: 2rem;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
-    .page .page-header {
+#stories  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9c1dc;
+}
+#support {
+    background-color: #b5d6a3;
+}
+#support #headernew  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .page-header {
+        display:flex;
+        flex-direction: column;
+        max-width:35vw ;
         text-align:center;
-    }
+        background-color: hwb(210 27% 30%);
+        margin-top: 10px;
+        border-radius: 10px ;
+        padding: 10px;
+}
+details .full-story {
+    padding: 5PX;
+}
+.story-card {
+    box-shadow: 10px 10px 5px 5px hwb(210 27% 30%) ;
+}
