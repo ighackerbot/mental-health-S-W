@@ -2,9 +2,9 @@ REFRENCES:
 ->https://www.betterup.com
 ->Chatgpt
 ->https://www.Youtube.com
-->NIMHANS Foundation
-->Aasra Foundation
-->iCall Foundation
+->https://nimhans.ac.in/
+->http://www.aasra.info/
+->https://icallhelpline.org/
 
 Special Thanks:
 
